@@ -430,7 +430,7 @@ while running:
 
         # HINT TEXT
         hint_text = body_font.render(
-            "Press H for Hint",
+            "Press SHIFT for Hint",
             True,
             WHITE
         )
@@ -830,8 +830,7 @@ while running:
             if event.type == pygame.KEYDOWN:
 
                 # HINT
-                if event.key == pygame.K_h:
-
+                if event.key == pygame.K_LSHIFT or event.key == pygame.K_RSHIFT:
                     if message == "":
                         hint_used = True
 
