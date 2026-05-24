@@ -1,0 +1,24 @@
+# Python cache files
+pycache/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# macOS files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Temporary files
+*.log
+
+# System files
+Thumbs.db
